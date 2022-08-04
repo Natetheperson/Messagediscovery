@@ -11,4 +11,7 @@ cursor.close()
 count = rows[0][0]
 
 print(f"I found {count} total messages.")
+print(5) 
+
+
 
