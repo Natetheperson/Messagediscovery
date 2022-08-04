@@ -9,5 +9,6 @@ cursor.execute("select count(*) from message")
 rows = cursor.fetchall()
 cursor.close()
 count = rows[0][0]
+
 print(f"I found {count} total messages.")
 
